@@ -8,7 +8,7 @@ public class ConexionDB {
 
     private static final String URL = "jdbc:mysql://localhost:3306/KITSURA_DB";
     private static final String USER = "root";
-    private static final String PASSWORD = "tu_password";
+    private static final String PASSWORD = "admin";
 
     public static Connection getConexion() {
         Connection conexion = null;
